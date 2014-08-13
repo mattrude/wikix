@@ -12,7 +12,7 @@ As of March 24, 2008, using a cable modem, the entire set of Wikipedia images ca
 * Start your terminal program. e.g. ''Konsole'' (in KDE)
 * You need to install some packages before you compile Wikix. Type in your terminal:
 
-    sudo aptitude install libssl-dev build-essential curl
+    sudo apt-get install libssl-dev build-essential curl
 
 * Now goto the directory that contains the extracted source code, e.g. ''/home/you/wikix'', by typing
 
