@@ -15,10 +15,10 @@ libcutf8.a: utf8.o
 	$(AR) r libcutf8.a utf8.o
  
 wikix: wikix.c libcutf8.a 
-	$(CC) $(CFLAGS) wikix.c -o wikix libcutf8.a -lssl 
+	$(CC) $(CFLAGS) wikix.c -o wikix libcutf8.a -lcrypto -lssl 
  
 clean:
-	rm -f *.o wikix
+	rm -f *.o *.a wikix
  
 install: all
 	install -m 755 wikix /usr/bin
