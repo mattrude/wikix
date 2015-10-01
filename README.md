@@ -8,7 +8,7 @@ As of March 24, 2008, using a cable modem, the entire set of Wikipedia images ca
 
 ### On Ubuntu
 
-* Extract the contents of **wikix.tar.gz**. Suppose the source code is extracted into `/home/you/wikix`.
+* Extract the contents of **[wikix.tar.gz](https://github.com/mattrude/wikix/archive/master.tar.gz)**. Suppose the source code is extracted into `/home/you/wikix`.
 * Start your terminal program. e.g. **Konsole** (in KDE)
 * You need to install some packages before you compile Wikix. Type in your terminal:
 
