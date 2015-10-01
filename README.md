@@ -8,21 +8,21 @@ As of March 24, 2008, using a cable modem, the entire set of Wikipedia images ca
 
 ### On Ubuntu
 
-* Extract the contents of ''wikix.tar.gz''. Suppose the source code is extracted into ''/home/you/wikix''.
-* Start your terminal program. e.g. ''Konsole'' (in KDE)
+* Extract the contents of **wikix.tar.gz**. Suppose the source code is extracted into `/home/you/wikix`.
+* Start your terminal program. e.g. **Konsole** (in KDE)
 * You need to install some packages before you compile Wikix. Type in your terminal:
 
-    sudo apt-get install libssl-dev build-essential curl
+`sudo apt-get install libssl-dev build-essential curl`
 
 * Now goto the directory that contains the extracted source code, e.g. ''/home/you/wikix'', by typing
 
-    cd /home/you/wikix
+`cd /home/you/wikix`
 
 * Now type in your terminal.
 
-    sudo make
+`sudo make`
 
-Now if the compilation and linking of Wikix completes without errors then you will have a brand new executable - ''wikix'', in your ''/home/you/wikix'' (in this example) directory.
+Now if the compilation and linking of Wikix completes without errors then you will have a brand new executable - `wikix`, in your `/home/you/wikix` (in this example) directory.
 
 ## Options
 
